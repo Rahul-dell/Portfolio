@@ -6,29 +6,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <style>
+        html{
+            background-color: rgb(247, 248, 228);
+        }
+        button{
+            position:relative;
+            left:600px;
+            top : 40px;
+        }
+        .head{
+            margin-top: 20px;
+            height:200px;
+            width: 1500px;
+            background-color:blueviolet;
+            text-align: center;
+            color: white;
+        }
+        .foot{
+            height:200px;
+            width: 1500px;
+            background-color:black;
+            text-align: center;
+            color: white;
+            
+        }
+        .bottom{
+            position:relative;
+            top:180px;
+        }
+
+    </style>
 </head>
-<body>
+<body><div class = "head">
     <h1>Welcome to My Website</h1>
     <h2>I am a student, <br>and following are web development projects from begining to latest:</h2>
+
+    <button> <a href = "./public/about.html">ABOUT</a>
+   </button>
+<button>
+    <a href = "./public/contact.html">CONTACT</a></button>
+</div>
+    <hr/>
     <hr/>
     <ol>
         <li><a href ="./public/movieR.html">Movie Ranking
             <img src ="./assets/movie_ranking.png" alt ="Movie Ranking project's screenshot" height =200px/>
         </a></li>
         <br/>
+        <hr/>
         <li><a href ="./public/bday.html">Birthday Invitation<!--whether we click the title of the project or image we will be linked to the project website-->
             <img src ="./assets/bday.png" alt ="Birthday Invitation project's screenshot" height =200px/>
         </a></li>
         <br/>
+        <hr/>
         <li><a href ="public/motivation_website.html">Motivation Website<!--whether we click the title of the project or image we will be linked to the project website-->
             <img src ="motivation.png" alt ="Motivation website's screenshot" height =200px/>
         </a></li> 
         <br/>
+       
     </ol>
     <hr/>
-    <a href = "./public/about.html">ABOUT</a>
-    <br/>
-    <br/>
-    <a href = "./public/contact.html">CONTACT</a>
+    <div class ="foot"><div class ="bottom">Copyright 2025</div></div>
 </body>
 </html>
